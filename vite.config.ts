@@ -17,7 +17,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.VITE_BASE_PATH || "/https://github.com/brmohan2004/construo"
   }));
 
 
