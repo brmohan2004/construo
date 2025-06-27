@@ -389,23 +389,8 @@ const Services = () => {
           </div>
         </div>
       </section>
-
-      <img
-        src="/bolt-badge.png"
-        alt="Powered by Bolt"
-        style={{
-          position: "fixed",
-          bottom: "24px",
-          left: "24px",
-          width: "80px",
-          height: "80px",
-          zIndex: 100,
-          borderRadius: "50%",
-          boxShadow: "0 4px 16px rgba(0,0,0,0.15)"
-        }}
-      />
     </div>
   );
 };
 
-export default Services; 
+export default Services;
